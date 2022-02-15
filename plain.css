@@ -1,3 +1,10 @@
 a:link, a:visited{
-    color:"red"
+    color:blue;
+    text-decoration:black solid underline 2px
+}
+h1{
+    text-align: center;
+}
+.intro{
+    text-align: center;
 }
