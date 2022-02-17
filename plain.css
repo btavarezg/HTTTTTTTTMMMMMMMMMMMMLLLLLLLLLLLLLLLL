@@ -4,8 +4,39 @@ a:link, a:visited{
 }
 h1{
     text-align: center;
+    font-size: 40px;
 }
 .intro{
     text-align: center;
 
+}
+.navlinks{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.navlinks li{
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    text-size-adjust: 50px;
+}
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+    color:blanchedalmond
+}
+.navlinks li a:hover{
+    transition: all 0.3s ease 0s;
+    background-color: brown;
+}
+li{
+    display:inline,center;
 }
