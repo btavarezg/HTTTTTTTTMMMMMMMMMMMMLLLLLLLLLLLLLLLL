@@ -84,3 +84,6 @@ summary:hover{
 .separation{
     border: none;
 }
+th{
+    text-align: center;
+}
