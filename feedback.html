@@ -23,15 +23,15 @@
         <form
         action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
         method="post">
-             Your name: <input type=text>
+             Your name: <input name="Name"type=text>
             <table border=3 style= width:700px;height:400px>
             <th colspan="6">Survey</th>
-            <tr class=special><td>Catergories</td><td>Unsatisfactory</td><td>below par</td><td>Average</td><td>Satisfactory</td><td>Excellent</td></tr class=special>
-            <tr><td>Aesthetics</td><td><input type="checkbox"> 1 &nbsp;</td><td><input type="checkbox"> 2 &nbsp;</td><td><input type="checkbox"> 3 &nbsp;</td><td><input type="checkbox"> 4&nbsp;</td><td><input type="checkbox"> 5 &nbsp;</td></tr>
-            <tr><td>Coherence</td><td><input type="checkbox"> 1 &nbsp;</td><td><input type="checkbox"> 2 &nbsp;</td><td><input type="checkbox"> 3 &nbsp;</td><td><input type="checkbox"> 4 &nbsp;</td><td><input type="checkbox"> 5 &nbsp;</td></tr>
-            <tr><td>Legibility</td><td><input type="checkbox"> 1 &nbsp;</td><td><input type="checkbox"> 2 &nbsp;</td><td><input type="checkbox"> 3 &nbsp;</td><td><input type="checkbox"> 4 &nbsp;</td><td><input type="checkbox"> 5 &nbsp;</td></tr>
-            <tr><td>Information</td><td><input type="checkbox"> 1 &nbsp;</td><td><input type="checkbox"> 2 &nbsp;</td><td><input type="checkbox"> 3 &nbsp;</td><td><input type="checkbox"> 4 &nbsp;</td><td><input type="checkbox"> 5 &nbsp;</td></tr>
-            <tr><td>Clarity</td><td><input type="radio"> 1 &nbsp;</td><td><input type="checkbox"> 2 &nbsp;</td><td><input type="checkbox"> 3 &nbsp;</td><td><input type="checkbox"> 4 &nbsp;</td><td><input type="checkbox"> 5 &nbsp;</td></tr>
+            <tr class=special><td><b>Catergories</b></td><td>Unsatisfactory</td><td>below par</td><td>Average</td><td>Satisfactory</td><td>Excellent</td></tr class=special>
+            <tr><td>Aesthetics</td><td><input name="aesthetics" type="radio" value="1"></td><td><input name="aesthetics" type="radio" value="2"> </td><td><input name="aesthetics" type="radio" value="3"></td><td><input name="aesthetics" type="radio" value="4"></td><td><input name="aesthetics" type="radio" value="5">  &nbsp;</td></tr>
+            <tr><td>Coherence</td><td><input name="Coherence" type="radio" value="1"> </td><td><input name="Coherence" type="radio" value="2"> </td><td><input name="Coherence" type="radio" value="3"></td><td><input name="Coherence" type="radio" value="4"> </td><td><input name="Coherence" type="radio" value="5">  &nbsp;</td></tr>
+            <tr><td>Legibility</td><td><input name="Legibility" type="radio" value="1"></td><td><input name="Legibility" type="radio" value="2"></td><td><input name="Legibility" type="radio" value="3"></td><td><input name="Legibility" type="radio" value="4"> </td><td><input name="Legibility" type="radio" value="5">  &nbsp;</td></tr>
+            <tr><td>Information</td><td><input name="Information" type="radio" value="1"></td><td><input name="Information" type="radio" value="2"></td><td><input name="Information" type="radio" value="3"></td><td><input name="Information" type="radio" value="4"> </td><td><input name="Information" type="radio" value="5">  &nbsp;</td></tr>
+            <tr><td>Clarity</td><td><input name="Clarity" type="radio" value="1"></td><td><input name="Clarity" type="radio" value="2"></td><td><input name="Clarity" type="radio" value="3"> </td><td><input name="Clarity" type="radio" value="4"> </td><td><input name="Clarity" type="radio" value="5">  &nbsp;</td></tr>
             </table>
             <input type=submit>
             <input name="send-to" value="brianatg27@gmail.com" hidden>
