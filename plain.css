@@ -157,5 +157,8 @@ input[type=radio]:active{
     img{
         float:none;
     }
-    
+    .navlinks li{
+        -webkit-tap-highlight-color: transparent;
+    }
+
 }
