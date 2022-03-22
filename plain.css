@@ -160,5 +160,9 @@ input[type=radio]:active{
     .navlinks li{
         -webkit-tap-highlight-color: transparent;
     }
+    .navlinks li a{
+        -webkit-tap-highlight-color: transparent;
+        transition: none;
+    }
 
 }
