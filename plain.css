@@ -64,7 +64,7 @@ th,tr,td{
     text-decoration: none;
     display: inline-block;
     background-color: rgb(0, 0, 0);
-    text-size-adjust: 50px;
+    /* text-size-adjust: 50%; */
 }
 .navlinks li a{
     transition: all 0.3s ease 0s;
@@ -78,7 +78,7 @@ th,tr,td{
     text-decoration: none;
 }
 li{
-    display:inline,center;
+    display: inline center;
 }
 span{
     float:right
@@ -153,14 +153,9 @@ input[type=radio]:active{
     height:2em; 
     background-color: tomato;
 }
-@media screen and (max-width: 480px){
-    img{
-        float:none;
-    }
-    .navlinks li{
-        -webkit-tap-highlight-color: transparent;
-        transition: none;
-        outline:none;
-    }
 
+@media screen and (max-width: 480px) {
+    * {
+        color: orchid;
+    }
 }
