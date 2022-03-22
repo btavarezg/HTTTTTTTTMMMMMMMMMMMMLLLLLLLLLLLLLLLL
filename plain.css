@@ -153,3 +153,9 @@ input[type=radio]:active{
     height:2em; 
     background-color: tomato;
 }
+@media screen and (max-width: 480px){
+    img{
+        float:none;
+    }
+    
+}
