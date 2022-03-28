@@ -166,3 +166,18 @@ input[type=radio]:active{
     }
 
 }
+.Better a{
+    font-size: 30px;
+    color: brown;
+}
+.Better a:hover{
+    box-sizing: border-box;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    background-color: black;
+}
+@supports (#one:45px){
+    #two{
+        font-size: 25px;}
+}
