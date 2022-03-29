@@ -107,6 +107,7 @@ summary:hover{
     background: #7a1f1f;
     cursor:pointer;
     transition: all 0.3s ease 0s;
+    font-size: 70px;
 }
 .header{
     box-sizing: border-box;
@@ -176,8 +177,4 @@ input[type=radio]:active{
     color: rgb(255, 255, 255);
     transition: all 0.3s ease 0s;
     background-color: black;
-}
-@supports (#one:45px){
-    #two{
-        font-size: 25px;}
 }
