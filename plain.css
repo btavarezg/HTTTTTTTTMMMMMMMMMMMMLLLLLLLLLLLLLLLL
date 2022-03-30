@@ -11,7 +11,7 @@ marquee{
 }
 #War{
     background-color:brown;color:white;
-    margin:0;
+    margin:-8px;
 }
 .rob{
     max-width: 800px;
